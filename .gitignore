@@ -27,3 +27,40 @@ override.tf.json
 
 # Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
 # example: *tfplan*
+
+
+\.DS_Store
+
+terraform\.tfstate\.d/
+
+
+scripts/
+env/
+
+lambda/code/bin/
+
+lambda/code/certifi/
+
+lambda/code/certifi-2019.11.28.dist-info/
+
+lambda/code/chardet/
+
+lambda/code/chardet-3.0.4.dist-info/
+
+lambda/code/idna/
+
+lambda/code/idna-2.8.dist-info/
+
+lambda/code/pymysql/
+
+lambda/code/PyMySQL-0.9.3.dist-info/
+
+lambda/code/requests/
+
+lambda/code/requests-2.22.0.dist-info/
+
+lambda/code/urllib3/
+
+lambda/code/urllib3-1.25.8.dist-info/
+
+lambda/output/
